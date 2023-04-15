@@ -37,7 +37,8 @@ app.get('/events', function(req, res) {
   
 app.listen(8001, () => {
     console.log('listening on port 8001!');  
-    return
-})
+});
+
+return;
 
 // process.exit(0);
