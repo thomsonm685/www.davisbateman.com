@@ -39,6 +39,4 @@ app.listen(8001, () => {
     console.log('listening on port 8001!');  
 });
 
-return;
-
 // process.exit(0);
