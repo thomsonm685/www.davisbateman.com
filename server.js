@@ -32,7 +32,7 @@ app.get('/contact', function(req, res) {
 });
 
 app.get('/events', function(req, res) {
-    res.sendFile(path.join(__dirname, '/front-end/www.brysonstavern.com/events.html'));
+    res.sendFile(path.join(__dirname, '/public/events.html'));
 });
   
 app.listen(process.env.PORT || 8001, () => {
